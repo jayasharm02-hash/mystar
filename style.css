@@ -1,0 +1,54 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial;
+    background:#f8f8f8;
+}
+
+header{
+    background:#ff5200;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin:40px;
+    flex-wrap:wrap;
+}
+
+.food{
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 0 10px #aaa;
+}
+
+.food img{
+    width:150px;
+    height:120px;
+    border-radius:10px;
+}
+
+button{
+    background:#ff5200;
+    color:white;
+    border:0;
+    padding:10px 20px;
+    margin-top:10px;
+    border-radius:20px;
+}
+
+button:hover{
+    background:#d93d00;
+}

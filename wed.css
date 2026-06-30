@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #000;
+    color: white;
+    
+
+}
+header{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: #000;
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+.logo{
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    gap: 35px;
+    font-size: 18px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.banner{
+    position: relative;
+    height: 650px;
+    margin-top: 80px;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .55;
+}
+.content{
+    position: absolute;
+    top: 150%;
+    left: 70px;
+    width: 500px;
+    color: #eeedef;
+    z-index: 10;
+}
+.content h2{
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: #eeedef;
+}
+.content p{
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 25px;
+    color: #eeedef;
+
+}
+ .content button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-right: 15px;
+    color: #000;
+    background: white;
+
+}
+h2{
+    margin: 15px 0;
+    color: red;
+}
+.cards{
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    overflow-x: auto;
+}
+.cards img{
+width: 150px;
+height: 220px;
+object-fit: cover;
+border-radius: 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background: #111;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    font-size: 14px;
+    gap: 15%;
+}

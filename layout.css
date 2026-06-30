@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(net.jpg);
+
+}
+.container{
+    height: 100vh;
+    padding: 25px 50px;
+}
+h1{
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: red;
+    
+
+}
+.login-box{
+    width: 350px;
+    background: rgba(0, 0, 0, 0.388);
+    padding: 50px;
+    margin: 50px auto;
+    color: white;
+}
+h3{
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 5px;
+
+}
+input[type="text"],
+input[type="password"]
+{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0 ;
+    background: #333;
+    border: none;
+    border-radius: 15px;
+    color: aliceblue;
+}
+button{
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    background: hwb(0 0% 0%);
+    cursor: pointer;
+    border: none;
+
+
+
+}
+.check{
+    display: flex;
+    justify-content:space-between;
+    font-size: 14px;
+    margin: 15px 0;
+    padding-top:2%;
+
+
+}
+a{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-bottom: 10%;
+
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    color: #aaa;
+    margin-top: 20px;
+}
+small{
+    margin-top: 15px;
+    padding-top: 50%;
+    color: #777;
+    font-size: 12px;
+}
+b{
+    color: white;
+}
+
+
